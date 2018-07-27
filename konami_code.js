@@ -12,5 +12,6 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  let i = 0
+  for()
 }
