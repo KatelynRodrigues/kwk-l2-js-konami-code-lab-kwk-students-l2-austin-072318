@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let i = 0
   const konami = document.querySelector("body")
-  konami.addEventListener("keydown", function(event){
+  konami.addEventListener("keydown", onKeyDownHandler()){
     if (konami){
       
     }
