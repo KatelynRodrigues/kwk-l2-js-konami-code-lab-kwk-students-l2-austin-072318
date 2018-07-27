@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   let i = 0
-  document.addEvent
+  document.querySelector("body")
 }
