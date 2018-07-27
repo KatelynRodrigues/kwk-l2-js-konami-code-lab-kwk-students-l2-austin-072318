@@ -13,7 +13,10 @@ const codes = [
 
 function init() {
   var konami = document.querySelector("body")
-  konami.addEventListener("keydown,")
+  konami.addEventListener("keydown",function())
+  
+  
+  
   // let i = 0
   // document.querySelector("body").addEventListener("keydown", function onKeyDownHandler(e){
   //   const key = e.key
