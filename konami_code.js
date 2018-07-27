@@ -15,6 +15,8 @@ function init() {
   let i = 0
   const konami = document.querySelector("body")
   konami.addEventListener("keydown", function(event){
-    if (konami.key==="e")
+    if (konami.key==="e"){
+      return 
+    }
   })
 }
