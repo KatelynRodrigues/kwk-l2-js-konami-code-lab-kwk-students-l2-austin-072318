@@ -11,9 +11,18 @@ const codes = [
   "a"
 ];
 
-function init() {
-  var konami = document.querySelector("body")
-  konami.addEventListener("keydown",function())
+
+
+input.addEventListener('keydown', function(e) {
+  console.log(e.key)
+  // if (e.key === "g") {
+  //   return e.preventDefault()
+  // }
+})
+
+// function init() {
+//   var konami = document.querySelector("body")
+//   konami.addEventListener("keydown",function())
   
   
   
@@ -34,4 +43,4 @@ function init() {
   //     }
   //   }
   // })
-    }
+//    }
