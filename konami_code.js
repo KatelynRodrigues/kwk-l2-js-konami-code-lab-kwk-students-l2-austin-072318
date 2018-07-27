@@ -12,10 +12,20 @@ const codes = [
 ];
 
 const input = document.querySelector('body')
+
+
+
+
+
  
 
 input.addEventListener('keydown', function(e) {
   console.log(e.key)
+  
+  
+  
+  
+  
   // if (e.key === "g") {
   //   return e.preventDefault()
   // }
