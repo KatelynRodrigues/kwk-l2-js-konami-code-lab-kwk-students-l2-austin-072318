@@ -26,7 +26,6 @@ function init() {
       } 
       
       else {
-        alert("Please try again!")
         i = 0
       }
     }
