@@ -10,9 +10,7 @@ const codes = [
   "b",
   "a"
 ];
-// Keys for A, B, and C keys.
-const alphabet = ['a', 'b', 'c'];
- 
+
 // Keep track of index outside of the event handler.
 let index = 0;
  
@@ -35,9 +33,7 @@ function onKeyDownHandler(e) {
 }
 
 const input = document.querySelector('body')
-
 input.addEventListener('keydown', function(e) {
   console.log(e.key)
-  
   onKeyDownHandler(e)
 })
