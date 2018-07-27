@@ -11,7 +11,8 @@ const codes = [
   "a"
 ];
 
-
+const input = document.querySelector('body')
+ 
 
 input.addEventListener('keydown', function(e) {
   console.log(e.key)
