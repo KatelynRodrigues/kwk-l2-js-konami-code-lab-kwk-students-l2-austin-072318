@@ -13,5 +13,6 @@ const codes = [
 
 function init() {
   let i = 0
-  document.querySelector("body")
+  const konami = document.querySelector("body")
+  konami.addEventListener("keydown", function(event))
 }
