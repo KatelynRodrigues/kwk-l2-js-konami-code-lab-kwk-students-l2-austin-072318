@@ -13,8 +13,7 @@ const codes = [
 
 function init() {
   let i = 0
-  const konami = document.querySelector("body")
-  konami.addEventListener("keydown", function onKeyDownHandler(e){
+  document.querySelector("body").addEventListener("keydown", function onKeyDownHandler(e){
     const key = e.key
     for (key in codes){
       if (key===codes[i]){
